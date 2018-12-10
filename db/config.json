@@ -1,0 +1,16 @@
+{
+  "db": "nodedb",
+  "login": "node",
+  "password": "node",
+  "port": 5432,
+  "host": "localhost",
+  "dialect": "postgres",
+  "dialectOptions": {
+    "instanceName": "sql",
+    "encrypt": true
+  },
+  "define": {
+    "timestamps": true,
+    "paranoid": true
+  }
+}
